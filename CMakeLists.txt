@@ -28,6 +28,7 @@ src/bear.cpp
 src/bittern.cpp
 src/desman.cpp
 src/editor.cpp
+src/fightManager.cpp
 src/npc.cpp
 src/utils.cpp
 )

@@ -1,28 +1,28 @@
 Murder --------
-Attacker: desman NPC_9 99 66
-Killed: bear NPC_11 16 32
+Attacker: desman NPC_1 99 93
+Killed: bear NPC_45 95 99
 
 Murder --------
-Attacker: desman NPC_9 93 44
-Killed: bear NPC_34 68 81
+Attacker: desman NPC_2 36 80
+Killed: bear NPC_10 42 81
 
 Murder --------
-Attacker: desman NPC_19 49 57
-Killed: bear NPC_47 77 81
+Attacker: bear NPC_4 82 35
+Killed: desman NPC_33 54 32
 
 Murder --------
-Attacker: desman NPC_20 33 47
-Killed: bear NPC_41 13 99
+Attacker: bear NPC_4 97 25
+Killed: desman NPC_46 55 10
 
 Murder --------
-Attacker: desman NPC_22 58 0
-Killed: bear NPC_8 0 40
+Attacker: desman NPC_5 95 85
+Killed: bear NPC_43 64 95
 
 Murder --------
-Attacker: desman NPC_22 76 8
-Killed: bear NPC_25 42 96
+Attacker: bear NPC_6 92 11
+Killed: bittern NPC_11 59 33
 
 Murder --------
-Attacker: desman NPC_28 51 66
-Killed: bear NPC_40 43 35
+Attacker: bear NPC_6 99 3
+Killed: bittern NPC_35 23 87
 

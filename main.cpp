@@ -18,9 +18,9 @@ int main()
     
     my_print() << "Generating ..." << std::endl;
     generate_npcs(array, 50, MAX_X, MAX_Y);
-    
-    my_print() << "Starting list:" << std::endl
-              << array;
+
+    my_print() << "\nStarting list:" << std::endl;
+    my_print() << array;
 
 
     auto start_time = std::chrono::steady_clock::now();

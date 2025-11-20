@@ -29,8 +29,8 @@ TEST(UtilsTest, GameIsOverUsesGameDurationSeconds) {
     using namespace std::chrono;
 
     auto now    = steady_clock::now();
-    auto before = now - duration<double>(GAME_DURATION_SECONDS - 1.0);
-    auto after  = now - duration<double>(GAME_DURATION_SECONDS + 1.0);
+    auto before = now - seconds(static_cast<int>(GAME_DURATION_SECONDS) - 1); // ещё не истекло
+    auto after  = now - seconds(static_cast<int>(GAME_DURATION_SECONDS) + 1); // уже истекло
 
     EXPECT_FALSE(game_is_over(before));
     EXPECT_TRUE(game_is_over(after));
